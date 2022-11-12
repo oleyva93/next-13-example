@@ -15,14 +15,19 @@ a {
   box-sizing: border-box;
 }
 
-h1 {
+h1,h2 {
   font-family: var(--font-grotesk) sans-serif;
+  color:cornflowerblue
 }
 
 body {
   padding: 100px;
   max-width: 800px;
   margin: 0 auto;
+}
+
+h1,h2:hover{
+  color: blue;
 }
 
 @media (prefers-color-scheme: dark) {
